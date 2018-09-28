@@ -1,0 +1,2 @@
+sudo apt-get install libbsd-dev
+Compilation : gcc mytar.c -o mytar -lbsd
