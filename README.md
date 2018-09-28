@@ -13,6 +13,12 @@ The command has a particular format:
 ```
 ./mytar -opt [dst] [src]
 ```
+```
+./mytar -a newarchive tmp/puma.jpg
+```
+All the mytar archive can be extracted with the "tar" command.
+
+
 There's 3 options with this command:
 
 - -e to extract
