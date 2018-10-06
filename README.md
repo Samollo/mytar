@@ -3,7 +3,12 @@ An implementation of the tar command using C.
 
 
 # INSTALL
-Simply with a makefile:
+
+Make sure you also have libbsd installed:
+```
+sudo apt-get install libbsd-dev
+```
+Then, simply use the makefile:
 ```
 make all
 ```
